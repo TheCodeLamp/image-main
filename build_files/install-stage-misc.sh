@@ -8,6 +8,7 @@ bat \
 fish \
 helix \
 snapper \
+solaar \
 vlc \
 wl-clipboard \
 zoxide \
