@@ -7,6 +7,7 @@ alacritty \
 bat \
 fish \
 helix \
+renderdoc \
 snapper \
 solaar \
 vlc \
