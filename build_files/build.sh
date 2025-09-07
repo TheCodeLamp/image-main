@@ -34,6 +34,11 @@ echo "::group:: Install LibreWolf"
 /ctx/install-stage-librewolf.sh
 echo "::endgroup::"
 
+## Install FirefoxPWA
+echo "::group:: Install FirefoxPWA"
+/ctx/install-stage-PWAsForFirefox.sh
+echo "::endgroup::"
+
 ## Install Misc
 echo "::group:: Install Misc"
 /ctx/install-stage-misc.sh
