@@ -13,6 +13,7 @@ renderdoc \
 ripgrep \
 snapper \
 solaar \
+tealdeer \
 vlc \
 wl-clipboard \
 zoxide \
