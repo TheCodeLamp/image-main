@@ -10,6 +10,7 @@ duperemove \
 fish \
 helix \
 renderdoc \
+ripgrep \
 snapper \
 solaar \
 vlc \
