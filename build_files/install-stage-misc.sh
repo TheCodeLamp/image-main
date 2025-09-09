@@ -5,6 +5,7 @@ set -ouex pipefail
 dnf install --assumeyes \
 alacritty \
 bat \
+btrfs-assistant \
 fish \
 helix \
 renderdoc \
