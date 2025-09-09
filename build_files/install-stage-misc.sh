@@ -6,6 +6,7 @@ dnf install --assumeyes \
 alacritty \
 bat \
 btrfs-assistant \
+duperemove \
 fish \
 helix \
 renderdoc \
