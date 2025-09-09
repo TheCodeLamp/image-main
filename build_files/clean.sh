@@ -3,7 +3,6 @@
 set -ouex pipefail
 
 # Clean dnf
-dnf upgrade --assumeyes
 dnf autoremove --assumeyes
 dnf clean all
 
