@@ -2,6 +2,11 @@
 
 set -oue pipefail
 
+# Install Cronie
+echo "::group:: Install Cronie"
+/ctx/install-cronie.sh
+echo "::endgroup::"
+
 # Install Mullvad
 echo "::group:: Install Mullvad"
 /ctx/install-mullvad.sh
