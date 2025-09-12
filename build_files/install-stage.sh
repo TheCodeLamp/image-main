@@ -4,41 +4,41 @@ set -oue pipefail
 
 # Install Cronie
 echo "::group:: Install Cronie"
-/ctx/install-cronie.sh
+./install-cronie.sh
 echo "::endgroup::"
 
 # Install Mullvad
 echo "::group:: Install Mullvad"
-/ctx/install-mullvad.sh
+./install-mullvad.sh
 echo "::endgroup::"
 
 # Install Megasync
 echo "::group:: Install Megasync"
-/ctx/install-megasync.sh
+./install-megasync.sh
 echo "::endgroup::"
 
 # Install Nushell
 echo "::group:: Install Nushell"
-/ctx/install-nushell.sh
+./install-nushell.sh
 echo "::endgroup::"
 
 # Install LibreWolf
 echo "::group:: Install LibreWolf"
-/ctx/install-librewolf.sh
+./install-librewolf.sh
 echo "::endgroup::"
 
 # Install FirefoxPWA
 echo "::group:: Install FirefoxPWA"
-/ctx/install-PWAsForFirefox.sh
+./install-PWAsForFirefox.sh
 echo "::endgroup::"
 
 # Install Misc
 echo "::group:: Install Misc"
-/ctx/install-misc.sh
+./install-misc.sh
 echo "::endgroup::"
 
 ## Install Fonts
 echo "::group:: Install Fonts"
-/ctx/install-fonts.sh
+./install-fonts.sh
 echo "::endgroup::"
 

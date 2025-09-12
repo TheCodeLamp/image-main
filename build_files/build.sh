@@ -2,26 +2,28 @@
 
 set -oue pipefail
 
+cd /ctx
+
 # Update
 echo "::group:: Update"
-/ctx/update-stage.sh
+./update-stage.sh
 echo "::endgroup::"
 
 # Remove packages
 echo "::group:: Remove packages"
-/ctx/remove-packages.sh
+./remove-packages.sh
 echo "::endgroup::"
 
 # Install packages
-/ctx/install-stage.sh
+./install-stage.sh
 
 # Generate initramfs
 echo "::group:: Generate initramfs"
-/ctx/generate-initramfs.sh
+./generate-initramfs.sh
 echo "::endgroup::"
 
 # Cleanup
 echo "::group:: Cleanup"
-/ctx/cleanup-stage.sh
+./cleanup-stage.sh
 echo "::endgroup::"
 
