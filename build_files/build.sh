@@ -12,42 +12,8 @@ echo "::group:: Remove packages"
 /ctx/remove-packages.sh
 echo "::endgroup::"
 
-# Install Packages
-
-## Install Mullvad
-echo "::group:: Install Mullvad"
-/ctx/install-stage-mullvad.sh
-echo "::endgroup::"
-
-## Install Megasync
-echo "::group:: Install Megasync"
-/ctx/install-stage-megasync.sh
-echo "::endgroup::"
-
-## Install Nushell
-echo "::group:: Install Nushell"
-/ctx/install-stage-nushell.sh
-echo "::endgroup::"
-
-## Install LibreWolf
-echo "::group:: Install LibreWolf"
-/ctx/install-stage-librewolf.sh
-echo "::endgroup::"
-
-## Install FirefoxPWA
-echo "::group:: Install FirefoxPWA"
-/ctx/install-stage-PWAsForFirefox.sh
-echo "::endgroup::"
-
-## Install Misc
-echo "::group:: Install Misc"
-/ctx/install-stage-misc.sh
-echo "::endgroup::"
-
-## Install Fonts
-echo "::group:: Install Fonts"
-/ctx/install-stage-fonts.sh
-echo "::endgroup::"
+# Install packages
+/ctx/install-stage.sh
 
 # Generate initramfs
 echo "::group:: Generate initramfs"
@@ -56,6 +22,6 @@ echo "::endgroup::"
 
 # Cleanup
 echo "::group:: Cleanup"
-/ctx/clean.sh
+/ctx/cleanup-stage.sh
 echo "::endgroup::"
 
