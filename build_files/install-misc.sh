@@ -15,5 +15,6 @@ snapper \
 solaar \
 tealdeer \
 vlc \
+waydroid \
 wl-clipboard \
 zoxide \
