@@ -2,4 +2,4 @@
 
 set -ouex pipefail
 
-dnf upgrade --assumeyes
+dnf upgrade --assumeyes --security
