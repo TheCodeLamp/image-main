@@ -14,6 +14,11 @@ echo "::group:: Remove packages"
 ./remove-packages.sh
 echo "::endgroup::"
 
+# Enable RPM Fusion
+echo "::group:: Enable RPM Fusion"
+./enable-rpmfusion.sh
+echo "::endgroup::"
+
 # Install packages
 ./install-stage.sh
 
