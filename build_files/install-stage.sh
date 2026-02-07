@@ -32,6 +32,11 @@ echo "::group:: Install FirefoxPWA"
 ./install-PWAsForFirefox.sh
 echo "::endgroup::"
 
+# Install Yazi
+echo "::group:: Install Yazi"
+./install-yazi.sh
+echo "::endgroup::"
+
 # Install Misc
 echo "::group:: Install Misc"
 ./install-misc.sh
