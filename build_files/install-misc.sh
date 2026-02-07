@@ -5,6 +5,7 @@ set -ouex pipefail
 dnf install --assumeyes \
 alacritty \
 bat \
+bees \
 btrfs-assistant \
 duperemove \
 fish \
